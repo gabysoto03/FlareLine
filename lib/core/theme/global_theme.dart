@@ -23,7 +23,8 @@ class GlobalTheme {
         appBarTheme: appBarTheme,
         textTheme: _textTheme,
         hintColor: hintColor,
-        cardTheme: cardTheme);
+        //cardTheme: cardTheme
+        );
   }
 
   static CardTheme lightCardTheme = const CardTheme(
