@@ -22,7 +22,7 @@ class ProfilePage extends LayoutWidget {
           height: 280,
           child: Stack(children: [
             Image.asset(
-              'assets/cover/cover-01.png',
+              'assets/icon/default.jpg',
               height: 280,
               width: double.maxFinite,
               fit: BoxFit.cover,
@@ -61,7 +61,7 @@ class ProfilePage extends LayoutWidget {
                   CircleAvatar(
                     radius: 72,
                     backgroundColor: Colors.greenAccent,
-                    child: Image.asset('assets/user/user-01.png'),
+                    child: Image.asset('assets/icon/default.jpg',),
                   ),
                   Align(
                     alignment: Alignment.bottomRight,

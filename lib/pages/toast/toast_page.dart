@@ -4,7 +4,6 @@ import 'package:flareline_uikit/components/buttons/button_widget.dart';
 import 'package:flareline_uikit/components/card/title_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:iconsax_flutter/iconsax_flutter.dart';
 import 'package:toastification/toastification.dart';
 import 'package:url_launcher/url_launcher.dart';
 

@@ -93,6 +93,8 @@ class SideMenuWidget extends StatelessWidget {
                       itemMenuName,
                       overflow: TextOverflow.ellipsis,
                       style: TextStyle(
+                          fontSize: 12,
+                          fontWeight: FontWeight.bold,
                           color: isDark
                               ? Colors.white
                               : FlarelineColors.darkBlackText),
@@ -155,6 +157,8 @@ class SideMenuWidget extends StatelessWidget {
                 child: Text(
                   itemMenuName,
                   style: TextStyle(
+                      fontSize: 12,
+                      fontWeight: FontWeight.bold,
                       color: isDark ? Colors.white : FlarelineColors
                           .darkBlackText),
                 )),

@@ -35,7 +35,7 @@ abstract class LayoutWidget extends FlarelineLayoutWidget {
           width: 10,
         ),
         CircleAvatar(
-          backgroundImage:AssetImage('assets/user/user-02.png'),
+          backgroundImage:AssetImage('assets/icon/default.jpg',),
           radius: 22,
         )
       ],

@@ -3,10 +3,8 @@ import 'dart:convert';
 import 'package:flareline_uikit/components/card/common_card.dart';
 import 'package:flareline/core/theme/global_colors.dart';
 import 'package:flareline/pages/layout.dart';
-import 'package:flareline_uikit/service/theme_provider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class ToolsPage extends LayoutWidget {
@@ -26,8 +24,8 @@ class ToolsPage extends LayoutWidget {
             behavior:
                 ScrollConfiguration.of(context).copyWith(scrollbars: false),
             child: FutureBuilder(
-                future: DefaultAssetBundle.of(context)
-                    .loadString('assets/routes/tools_menu_route_en.json'),
+                //future: null,
+                future: DefaultAssetBundle.of(context).loadString('assets/routes/tools_menu_route_en.json'),
                 builder: (context, snapshot) {
                   if (snapshot.connectionState == ConnectionState.waiting ||
                       !snapshot.hasData) {

@@ -68,15 +68,8 @@ flutter:
 
   assets:
     - assets/
-    - assets/brand/
-    - assets//cards/
-    - assets/country/
-    - assets/cover/
     - assets/icon/
     - assets/logo/
-    - assets/product/
-    - assets/task/
-    - assets/user/
     - assets/signin/
     - assets/alert/
     - assets/toolbar/
@@ -84,5 +77,3 @@ flutter:
     - assets/australia.json
     - assets/routes/
     - assets/api/
-    - assets/ai/
-    - assets/crm/

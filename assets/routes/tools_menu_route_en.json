@@ -13,7 +13,7 @@
     "groupName": "Project",
     "menuList":[
       {
-        "icon": "assets/crm/crm.png",
+        "icon": "assets/icon/ai.png",
         "menuName": "CRM",
         "path": "https://flare-line-crm.vercel.app"
       }

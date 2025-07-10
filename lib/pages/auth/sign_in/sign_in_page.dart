@@ -175,7 +175,7 @@ class SignInWidget extends BaseWidget<SignInProvider> {
               color: Colors.white,
               borderColor: GlobalColors.border,
               iconWidget: SvgPicture.asset(
-                'assets/brand/brand-01.svg',
+                'assets/icon/default.jpg',
                 width: 25,
                 height: 25,
               ),
@@ -191,7 +191,7 @@ class SignInWidget extends BaseWidget<SignInProvider> {
               color: Colors.white,
               borderColor: GlobalColors.border,
               iconWidget: SvgPicture.asset(
-                'assets/brand/brand-03.svg',
+                'assets/icon/default.jpg',
                 width: 25,
                 height: 25,
               ),
