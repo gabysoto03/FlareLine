@@ -1,0 +1,51 @@
+[
+  {
+    "groupName": "Inicio",
+    "menuList": [
+      {
+        "icon": "assets/sidebar/dashboard.svg",
+        "menuName": "Dashboard",
+        "path": "/"
+      }
+    ]
+  },
+  
+  {
+    "groupName": "ÁREAS DE TRABAJO",
+    "menuList": [
+        {
+        "icon": "assets/sidebar/calendar.svg",
+        "menuName": "Asistencias",
+        "path": "/calendar"
+      },
+      {
+        "icon": "assets/sidebar/invoice.svg",
+        "menuName": "Reportes",
+        "path": "/invoice"
+      },
+      {
+        "icon": "assets/sidebar/profile.svg",
+        "menuName": "Usuarios",
+        "path": "/profile"
+      },
+    
+      {
+        "icon": "assets/sidebar/setting.svg",
+        "menuName": "Horarios",
+        "path": "/settings"
+      },
+      {
+        "icon": "assets/sidebar/setting.svg",
+        "menuName": "Expedientes",
+        "path": "/settings"
+      },
+            {
+        "icon": "assets/sidebar/setting.svg",
+        "menuName": "Otros",
+        "path": "/settings"
+      }
+    ]
+  }
+]
+
+
